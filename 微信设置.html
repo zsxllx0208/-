@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/iconfont.css" rel="stylesheet">
+    <title>微信设置</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            background-color: #eeeeee;
+        }
+        #warp{
+            height: 480px;
+            width: 980px;
+            background-color: white;
+        }
+        #warp .content{
+            height: 90px;
+            width: 980px;
+            background-color: white;
+        }
+        #warp .content .iconfont{
+            font-size: 60px;
+            line-height: 90px;
+            background-color: white;
+        }
+        .clock{
+            font-size: 50px;
+            line-height: 90px;
+            float: right;
+            background-color: white;
+        }
+        .title{
+            height: 90px;
+            width: 980px;
+            background-color: white;
+        }
+        #warp .title .iconfont{
+            font-size: 70px;
+            line-height: 90px;
+            float: right;
+            margin-right: 40px;
+            background-color: white;
+        }
+        #warp .myself{
+            height: 300px;
+            width: 980px;
+            border-bottom:solid white;
+            background-color: white;
+        }
+        #warp .myself .touxiang{
+            height: 300px;
+            width:100px;
+            background-image: url("css/touxiang2.jpg");
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-left: 200px;
+            float: left;
+            background-color: white;
+
+        }
+        .nicheng{
+            height: 90px;
+            width: 580px;
+            font-size: 60px;
+          padding-top: 60px;
+            line-height: 90px;
+            background-color: white;
+        }
+        .mark{
+            width: 680px;
+            height: 80px;
+            background-color:white;
+            float:right;
+            font-size: 35px;
+            line-height: 80px;
+        }
+        #warp .myself .mark .iconfont{
+            font-size: 35px;
+            line-height: 80px;
+            float: right;
+            background-color: white;
+            padding-right: 50px;
+        }
+        .turn{
+            font-size: 40px;
+            line-height: 80px;
+            float: right;
+            background-color: white;
+            padding-right: 20px;
+        }
+        .win{
+            margin-top: 35px;
+            width: 980px;
+            height: 944px;
+
+        }
+        .b1{
+            width: 980px;
+            height: 110px;
+            font-size: 50px;
+            line-height: 110px;
+            background-color: white;
+            border-bottom: solid #dddddd;
+        }
+        .b1 .iconfont{
+            font-size:60px;
+            line-height: 110px;
+            background-color: white;
+            color: green;
+            padding-left: 30px;
+        }
+        .b1 .turn{
+            font-size: 60px;
+            line-height: 110px;
+        }
+        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~分隔符~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+        .bot{
+            height: 150px;
+            border: solid 1px #000000;
+            display: flex;
+        }
+        .bot .iconfont{
+            font-size: 80px;
+
+        }
+        .bot .a1{
+            font-size: 30px;
+            /*padding-top: 10px;*/
+        }
+        .bot{
+            text-align: center;
+            background-color: white;
+        }
+        .bot .a1{
+            width: 243px;
+            height: 148px;
+            border: solid 1px #000000;
+            border-bottom-color: black;
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="warp">
+        <div class="content">
+            <span class="iconfont">&#xe6fb;</span><span class="iconfont">&#xe633;</span><span class="iconfont">&#xe9e7;</span>
+            <div class="clock">下午3:50</div>
+        </div>
+        <div class="title">
+            <span class="iconfont">&#xe602;</span>
+        </div>
+        <div class="myself">
+            <div class="touxiang"></div>
+            <div class="nicheng">雄</div>
+            <div class="mark">微信号:q644148625
+                <span class="turn">></span><span class="iconfont">&#xe603;</span>
+            </div>
+        </div>
+    </div>
+    <div class="win">
+        <div class="b1">
+        <span class="iconfont">&#xe619;</span> 支付<span class="turn"> > </span>
+        </div>
+        <div class="b1" style="margin-top: 30px">
+            <span class="iconfont">&#xe646;</span> 收藏<span class="turn"> > </span>
+        </div>
+        <div class="b1">
+            <span class="iconfont" style="font-size: 48px;color: deepskyblue">&#xe6ab;</span> 相册<span class="turn"> > </span>
+        </div>
+        <div class="b1">
+            <span class="iconfont"  style="color: deepskyblue">&#xe61d;</span> 卡包<span class="turn"> > </span>
+        </div>
+        <div class="b1">
+            <span class="iconfont" style="color: orange">&#xe60c;</span> 表情<span class="turn"> > </span>
+        </div>
+        <div class="b1" style="margin-top: 30px">
+            <span class="iconfont">&#xe676;</span> 设置<span class="turn"> > </span>
+        </div>
+    </div>
+    <div class="bot" style="margin-top:132px">
+        <a href="微信聊天.html"style="color: black;text-decoration: none">
+        <div class="a1" ><span class="iconfont" style="background-color: white">&#xe62b;</span><br>微信</div>
+        </a>
+        <a href="微信通讯录.html"style="color: black;text-decoration: none">
+        <div class="a1"><span class="iconfont" style="background-color: white">&#xe722;</span><br>通讯录</div>
+        </a>
+        <a href="微信发现.html"style="color: black;text-decoration: none">
+        <div class="a1" >
+            <span class="iconfont" style="background-color: white">&#xe605;</span><br>发现
+        </div>
+        </a>
+        <div class="a1"style="background-color: green;color: white">
+            <span class="iconfont" style="background-color: green">&#xe626;</span><br>我
+        </div>
+    </div>
+
+</body>
+</html>
